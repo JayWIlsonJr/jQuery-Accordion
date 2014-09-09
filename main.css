@@ -1,0 +1,35 @@
+.container {
+  width: 400px;
+  margin:  0 auto;
+}
+
+.heading {
+  height: 40px;
+  background: #BFD3E2;
+  outline: 1px solid grey;
+}
+
+.heading h2 {
+  color: white;
+  position: relative;
+  top: 6px;
+  left: 10px;
+}
+
+
+.holder {
+  border: 1px solid grey;
+  margin: 0 0 10px 0;
+ /* padding:  10px 20px;*/
+  height: 0;
+  overflow:  hidden;
+}
+
+.visible {
+  height: 260px;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+
+
+
